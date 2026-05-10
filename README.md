@@ -18,9 +18,12 @@
 - Bash
 - Dependencias: `pip install -r requirements.txt`
 
-## 🚀 Instalación Rápida
+# 🛡️ Social Toolkit - Defensive Edition
+
+**Solo para simular ataques de phishing en entornos autorizados y detectar correos maliciosos.**
+
+## Instalación
 ```bash
-git clone https://github.com/Falconmx1/social-toolkit.git
-cd social-toolkit
-chmod +x install.sh
-sudo ./install.sh
+git clone https://github.com/Falconmx1/Social-Toolkit.git
+cd Social-Toolkit
+chmod +x install.sh && sudo ./install.sh
