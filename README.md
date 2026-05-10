@@ -47,3 +47,26 @@ git clone https://github.com/Falconmx1/Social-Toolkit.git
 cd Social-Toolkit
 chmod +x install.sh
 sudo ./install.sh
+
+🎯 Uso básico
+# Simular phishing controlado
+python3 modules/phishing_simulator.py --template pwd --targets lista_empleados.txt
+
+# Detectar phishing en un correo
+python3 modules/phishing_detector.py --email correo_sospechoso.eml
+
+# Ejecutar entrenamiento interactivo
+bash modules/training_module.sh
+
+# Generar reporte del simulacro
+python3 modules/report_generator.py --log logs/simulacro.log
+
+⚙️ Configuración
+
+Edita config/settings.ini para configurar:
+
+    Servidor SMTP (para simulacros)
+
+    Dominios permitidos
+
+    Correo del administrador
