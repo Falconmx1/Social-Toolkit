@@ -17,13 +17,33 @@
 - Python 3.8+
 - Bash
 - Dependencias: `pip install -r requirements.txt`
-
 # 🛡️ Social Toolkit - Defensive Edition
 
-**Solo para simular ataques de phishing en entornos autorizados y detectar correos maliciosos.**
+**Herramienta defensiva para simular phishing controlado y detectar intentos de ataque en entornos Linux.**
 
-## Instalación
+> ⚠️ **USO EXCLUSIVO PARA PRUEBAS AUTORIZADAS**  
+> Esta herramienta solo debe utilizarse en sistemas y redes con permiso explícito por escrito del propietario.  
+> El mal uso constituye un delito. El autor no se hace responsable.
+
+## ✨ Características
+
+- **Simulador de phishing controlado** - Envía correos educativos a empleados autorizados
+- **Detector de phishing** - Analiza correos entrantes en busca de indicadores maliciosos
+- **Módulo de entrenamiento** - Tests interactivos para concienciación
+- **Generador de reportes** - Estadísticas y recomendaciones en PDF/HTML
+- **Modo educativo** - Explica cada indicador detectado
+
+## 📋 Requisitos
+
+- Kali Linux / Ubuntu / Debian
+- Python 3.8+
+- Bash 4.0+
+- Servidor SMTP configurado (para envío de correos)
+
+## 🚀 Instalación rápida
+
 ```bash
 git clone https://github.com/Falconmx1/Social-Toolkit.git
 cd Social-Toolkit
-chmod +x install.sh && sudo ./install.sh
+chmod +x install.sh
+sudo ./install.sh
