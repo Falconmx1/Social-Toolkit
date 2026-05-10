@@ -1,0 +1,10 @@
+# Lista de correos autorizados para simulacros
+# Solo estos recibirán correos de prueba
+# Formato: uno por línea
+
+# Ejemplos:
+# carlos.seguridad@tuempresa.com
+# maria.rrhh@tuempresa.com
+# admin@tuempresa.com
+
+# Agrega aquí los correos reales de tu empresa PARA SIMULACROS AUTORIZADOS
